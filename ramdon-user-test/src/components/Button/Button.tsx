@@ -8,8 +8,10 @@ interface IButton {
 
 const Button: React.FC<IButton> = ({isActive, clicked}) => {
 	return (
-		<Container >
-			<button onClick={clicked}>Test</button>
+		<Container onClick={clicked} >
+			{
+				isActive ? "Get another user" : "Get user"
+			}
 		</Container>
 		
 	)

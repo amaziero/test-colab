@@ -13,25 +13,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.button {
-  margin: 20px auto;
   color: black;
-  background: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border: 1px solid #3333;
-  outline: none;
-}
-
-.img {
-  width: 250px;
-  height: 250px;
-  margin: 10px 0;
-  border-radius: 50%;
-  border: 1px solid #dedede;
 }
 
 .App {
@@ -49,12 +31,15 @@
   align-items: center;
 }
 
-.App .fas {
-  margin: 0 30px;
-  transition: all 0.2s ease;
+
+.img {
+  width: 250px;
+  height: 250px;
+  margin: 10px 0;
+  border-radius: 50%;
+  border: 1px solid #dedede;
 }
 
-.App .fas:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+i {
+  margin-right: 20px;
 }
