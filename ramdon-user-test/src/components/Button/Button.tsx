@@ -1,16 +1,17 @@
 import React from 'react'
-import '../App.css';
+import { Container } from "./styles"
 
 interface IButton {
 	isActive: boolean;
 	clicked: any;
 }
 
-const Button = ({isActive, clicked}: IButton) => {
+const Button: React.FC<IButton> = ({isActive, clicked}) => {
 	return (
-		<div>
+		<Container >
 			<button onClick={clicked}>Test</button>
-		</div>
+		</Container>
+		
 	)
 }
 
